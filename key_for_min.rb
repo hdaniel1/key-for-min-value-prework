@@ -14,5 +14,5 @@ def key_for_min_value(name_hash)
       new.push(key)
     end
   end
-  return new
+  return new[-1]
 end
