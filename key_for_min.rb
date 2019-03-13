@@ -11,6 +11,8 @@ def key_for_min_value(name_hash)
     end
     if  (min < value)
       min = value
+      new.push(key)
     end
   end
+  return new
 end
