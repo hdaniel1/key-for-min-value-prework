@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
   new = []
-  min = bil
+  min = nil
   name_hash.collect do |key, value|
 
     if (min == nil)
